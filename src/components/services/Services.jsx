@@ -23,7 +23,7 @@ const Services = () => {
 		<motion.div className='services' variants={variants} initial='initial' whileInView='animate'>
 			<motion.div className='textContainer' variants={variants} >
 				<p>
-					Hide.-z nami odkryjesz nową stronę świata <br /> i rozwoju
+					Z nami odkryjesz nową stronę świata <br /> i rozwoju
 				</p>
 				<hr />
 			</motion.div>
