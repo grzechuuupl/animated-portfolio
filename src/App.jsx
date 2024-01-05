@@ -4,6 +4,7 @@ import Hero from './components/hero/Hero'
 import Parallax from './components/parallax/Parallax'
 import Services from './components/services/Services'
 import Contact from './components/contact/Contact'
+import Portfolio from './components/portfolio/Portfolio'
 
 const App = () => {
 	return (
@@ -21,7 +22,7 @@ const App = () => {
 			<section id='Portfolio'>
 				<Parallax type='portfolio' mode='wait' />
 			</section>
-
+			<Portfolio />
 			<section id='Kontakt'>
 				<Contact mode='wait' />
 			</section>

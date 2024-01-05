@@ -1,3 +1,5 @@
+@import '../../app.scss';
+
 .contact {
 	height: 100%;
 	max-width: 1366px;
@@ -29,11 +31,11 @@
 		flex: 1;
 		position: relative;
 
-		.thunderSvg {
+		.phoneSvg {
 			stroke: #ffc106;
 			margin: auto;
 			position: absolute;
-            z-index: -1;
+			z-index: -1;
 		}
 		form {
 			display: flex;
