@@ -13,17 +13,17 @@ const App = () => {
 				<Hero />
 			</section>
 			<section id='Usługi'>
-				<Parallax type='services' />
+				<Parallax type='services' mode='wait' />
 			</section>
 			<section>
-				<Services />
+				<Services mode='wait' />
 			</section>
 			<section id='Portfolio'>
-				<Parallax type='portfolio' />
+				<Parallax type='portfolio' mode='wait' />
 			</section>
-			
+
 			<section id='Kontakt'>
-				<Contact />
+				<Contact mode='wait' />
 			</section>
 		</div>
 	)
